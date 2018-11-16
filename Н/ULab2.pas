@@ -1,4 +1,4 @@
-unit UMenu;
+unit ULab2;
 
 interface
 
@@ -6,7 +6,7 @@ uses
   UIState, Vcl.Forms, Vcl.StdCtrls;
 
 type
-  TMenu1 = class(TInterfacedObject, IState)
+  Lab2 = class(TInterfacedObject, IState)
   private
     label1: Tlabel;
   published
@@ -17,18 +17,18 @@ type
 
 implementation
 
-{ Menu }
+{ Lab2 }
 
-constructor TMenu1.create(AOwner: TForm);
+constructor Lab2.create(AOwner: TForm);
 begin
   label1 := Tlabel.create(AOwner);
   label1.Left := 8;
   label1.Top := 8;
   label1.Parent := AOwner;
-  label1.caption := 'WebPage.GetCaption';
+  label1.caption := 'Lab1';
 end;
 
-procedure TMenu1.destroy;
+procedure Lab2.destroy;
 begin
   label1.Free;
 end;

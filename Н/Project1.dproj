@@ -86,6 +86,10 @@
 				<Form>Form1</Form>
 				<FormType>dfm</FormType>
 			</DCCReference>
+			<DCCReference Include="UIState.pas"/>
+			<DCCReference Include="ULab1.pas"/>
+			<DCCReference Include="ULab2.pas"/>
+			<DCCReference Include="UMenu.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
