@@ -21,11 +21,14 @@ implementation
 
 constructor TMenu1.create(AOwner: TForm);
 begin
+// название в меню
   label1 := Tlabel.create(AOwner);
-  label1.Left := 8;
-  label1.Top := 8;
+  Label1.Font.Height:=-20;
+  Label1.Font.Name:='Tahoma';
+  Label1.Left:=64;
+  Label1.Top:=144;
   label1.Parent := AOwner;
-  label1.caption := 'WebPage.GetCaption';
+  label1.caption := 'Численные методы оптимизации';
 end;
 
 procedure TMenu1.destroy;

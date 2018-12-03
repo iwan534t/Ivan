@@ -90,6 +90,14 @@
 			<DCCReference Include="ULab1.pas"/>
 			<DCCReference Include="ULab2.pas"/>
 			<DCCReference Include="UMenu.pas"/>
+			<DCCReference Include="ULab3.pas"/>
+			<DCCReference Include="ULab4.pas"/>
+			<DCCReference Include="ULab5.pas"/>
+			<DCCReference Include="ULab6.pas"/>
+			<DCCReference Include="ULab7.pas"/>
+			<DCCReference Include="ULab8.pas"/>
+			<DCCReference Include="ULab9.pas"/>
+			<DCCReference Include="UHelp.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
