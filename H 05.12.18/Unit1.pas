@@ -35,7 +35,6 @@ type
     procedure Open8Click(Sender: TObject);
     procedure Open9Click(Sender: TObject);
     procedure Help1Click(Sender: TObject);
-
   private
     state:IState;
   public
@@ -48,8 +47,6 @@ var
 implementation
 
 {$R *.dfm}
-
-
 
 procedure TForm1.Exit1Click(Sender: TObject);
 begin
@@ -70,7 +67,7 @@ end;
 
 procedure TForm1.Open3Click(Sender: TObject);
 begin
-   state.destroy;
+  state.destroy;
   state:=Lab3.create(self);
 end;
 
@@ -78,48 +75,53 @@ procedure TForm1.Open1Click(Sender: TObject);
 begin
   state.destroy;
   state:=Lab1.create(self);
-
+  //размер формы
+  Form1.Height:=600;
+  Form1.Width:=800;
 end;
-
-
 
 procedure TForm1.Open2Click(Sender: TObject);
 begin
   state.destroy;
   state:=Lab2.create(self);
+  Form1.Height:=600;
+  Form1.Width:=800;
 end;
 
 procedure TForm1.Open4Click(Sender: TObject);
 begin
-    state.destroy;
+  state.destroy;
   state:=Lab4.create(self);
 end;
 
 procedure TForm1.Open5Click(Sender: TObject);
 begin
-    state.destroy;
+  state.destroy;
   state:=Lab5.create(self);
 end;
+
 procedure TForm1.Open6Click(Sender: TObject);
 begin
-   state.destroy;
+  state.destroy;
   state:=Lab6.create(self);
 end;
+
 procedure TForm1.Open7Click(Sender: TObject);
 begin
- state.destroy;
+  state.destroy;
   state:=Lab7.create(self);
 end;
+
 procedure TForm1.Open8Click(Sender: TObject);
 begin
   state.destroy;
   state:=Lab8.create(self);
 end;
+
 procedure TForm1.Open9Click(Sender: TObject);
 begin
-   state.destroy;
+  state.destroy;
   state:=Lab9.create(self);
 end;
-
 
 end.
